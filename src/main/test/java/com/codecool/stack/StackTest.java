@@ -1,6 +1,6 @@
 package java.com.codecool.stack;
 
-import com.codecool.stack.Stack;
+import stack.Stack;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

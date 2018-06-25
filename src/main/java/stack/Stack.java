@@ -1,4 +1,4 @@
-package com.codecool.stack;
+package stack;
 
 import java.util.Arrays;
 
@@ -39,7 +39,7 @@ public class Stack {
         if (actualSize == stackForIntegers.length) {
             throw new ArrayIndexOutOfBoundsException("Stack is full, you cannot push more element in it!");
         } else
-        stackForIntegers[actualSize] = item;
+            stackForIntegers[actualSize] = item;
         actualSize++;
     }
 
